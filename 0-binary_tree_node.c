@@ -4,6 +4,7 @@
  * @parent: parent node
  * @value: value of new node
  */
+
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	binary_tree *new_node;
@@ -19,3 +20,4 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	new_node->right = NULL;
 	return (new_node);
 }
+
